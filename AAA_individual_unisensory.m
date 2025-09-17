@@ -139,6 +139,8 @@ set(findall(gcf, '-property', 'FontSize'), 'FontSize', 24);
 
 Results_MLE = MLE_Calculations_A_V_AV(models.Model1, models.Model2, models.Model3, xyData.yData1, xyData.yData2, xyData.yData3, xyData.xData1, xyData.xData2, xyData.xData3);
 
+disp('Sensitivity for A, V, AV')
 disp(sensitivity)
+disp('PSE for A, V, AV')
 disp(mu)
 disp(Results_MLE)
